@@ -9,9 +9,11 @@ html {
 
 /* Header */
 
-div#main {
-    background: linear-gradient(to bottom, pink, white);
+#main {
+    background: linear-gradient(to top, pink, white);
 }
+
+/* Header */
 
 .header--img {
     margin: auto;
@@ -513,4 +515,16 @@ p {
 .gif--tym {
     width: 200px;
     float: right;
+}
+
+.greeting--footer {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 100px;
+    color: beige;
+}
+
+.greeting--footer:hover {
+    color: #333;
+    cursor: pointer;
 }
